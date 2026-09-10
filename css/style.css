@@ -188,15 +188,15 @@
     }
 
     .slide-1 {
-      background-image: url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=2000&q=85");
+      background-image: url("../imgs/hero.avif");
     }
 
     .slide-2 {
-      background-image: url("https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=2000&q=85");
+      background-image: url("");
     }
 
     .slide-3 {
-      background-image: url("https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=2000&q=85");
+      background-image: url("");
     }
 
     .hero-content {
@@ -555,6 +555,48 @@
               color: #777;
 
     }
+    /* Tech Stack Outer Container */
+.tech-stack-container {
+  margin-top: 25px;
+}
+
+/* Section Title */
+.tech-stack-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #666666;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Badges Wrapper */
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+/* Single Badge Styling */
+.badge {
+  background-color: #f0f0f0;
+  color: #333333;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+/* Hover Effect for Interactive Feel */
+.badge:hover {
+  background-color: #222222;
+  color: #ffffff;
+  border-color: #222222;
+  transform: translateY(-2px);
+}
 
 
     /* =========================================
